@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+/*reset css*/
+.baitap4{
+	width:1170px;
+	height:1000px;
+	background:#0084FF;
+	margin: 0 auto
+}
+.box{
+	width: calc(33.33% - 20px);
+	float:left;
+	box-shadow: 5px 25px 30px rgba(0,0,0,0.2);
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 10px;
+	background: white;
+}
+.box img{
+	width: 100%;
+}
+.content{
+	padding: 20px;
+}
+.content p{
+	margin: 24px 0 40px;
+}
+.content a{
+	background: rgba(0,0,0,1.00);
+	color: white;
+	text-decoration: none;
+	padding: 8px 30px;
+	border-radius: 20px;
+	
+}
